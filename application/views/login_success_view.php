@@ -17,5 +17,7 @@
 		<li>Email : <?= $this->session->userdata('email');?></li>
 		<li>Level : <?= $this->session->userdata('level');?></li>
 	</ol>
+
+	<a href="<?= base_url('Welcome/logout')?>"> Logout</a>
 </body>
 </html>
